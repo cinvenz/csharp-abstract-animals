@@ -8,24 +8,24 @@ Console.WriteLine();
 Console.WriteLine("passerotto");
 
 Animale passerotto = new Passerotto();
+passerotto.Dormi();
 passerotto.Verso();
 passerotto.Mangia();
-passerotto.Dormi();
 
 Console.WriteLine();
 Console.WriteLine("aquila");
 
 Animale aquila = new Aquila();
+aquila.Dormi();
 aquila.Verso();
 aquila.Mangia();
-aquila.Dormi();
 
 Console.WriteLine();
 Console.WriteLine("delfino");
 
 Animale delfino = new Delfino();
+aquila.Dormi();
 delfino.Verso();
 delfino.Mangia();
-delfino.Dormi();
 
 

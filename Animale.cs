@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 public abstract class Animale
 {
-    public abstract void Dormi();
+    public void Dormi()
+    {
+        Console.WriteLine("Zzz");
+    }
     public abstract void Verso();
     public abstract void Mangia();
 }

@@ -8,11 +8,6 @@ using System.Threading.Tasks;
 
 public class Delfino : Animale
 {
-    public override void Dormi()
-    {
-        Console.WriteLine("Zzz");
-    }
-
     public override void Verso()
     {
         Console.WriteLine("Iiiiii");

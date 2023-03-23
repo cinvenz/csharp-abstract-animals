@@ -7,10 +7,6 @@ using System.Threading.Tasks;
 
 public class Aquila : Animale
 {
-    public override void Dormi()
-    {
-        Console.WriteLine("Zzz");
-    }
 
     public override void Verso()
     {
