@@ -28,4 +28,20 @@ aquila.Dormi();
 delfino.Verso();
 delfino.Mangia();
 
+Console.WriteLine("---------------------------------------");
 
+Console.WriteLine("Aquila:");
+FaiVolare((IVolante)aquila);
+
+Console.WriteLine("Delfino::");
+FaiNuotare((INuotante)delfino);
+
+static void FaiVolare(IVolante aquila)
+{
+    aquila.Vola();
+}
+
+static void FaiNuotare(INuotante delfino)
+{
+    delfino.Nuota();
+}

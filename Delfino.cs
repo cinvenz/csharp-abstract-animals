@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 
-public class Delfino : Animale
+public class Delfino : Animale, INuotante
 {
     public override void Verso()
     {

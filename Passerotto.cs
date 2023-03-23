@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-public class Passerotto : Animale
+public class Passerotto : Animale, IVolante
 {
 
     public override void Verso()
@@ -17,6 +17,7 @@ public class Passerotto : Animale
     {
         Console.WriteLine("Briciole");
     }
+
 }
 
 

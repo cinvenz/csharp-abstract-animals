@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-public class Aquila : Animale
+public class Aquila : Animale, IVolante
 {
 
     public override void Verso()
@@ -17,6 +17,7 @@ public class Aquila : Animale
     {
         Console.WriteLine("Carne");
     }
+
 }
 
 
