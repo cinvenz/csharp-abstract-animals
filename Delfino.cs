@@ -17,6 +17,12 @@ public class Delfino : Animale, INuotante
     {
         Console.WriteLine("Pesce");
     }
+
+    public void Nuota()
+    {
+        Console.WriteLine("Sto nuotando!!!");
+    }
+
 }
 
 

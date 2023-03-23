@@ -7,10 +7,7 @@ using System.Threading.Tasks;
 
 public interface INuotante
 {
-    void Nuota()
-    {
-        Console.WriteLine("Sto nuotando!!!");
-    }
- 
+    void Nuota();
+
 }
 

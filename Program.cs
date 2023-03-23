@@ -1,4 +1,6 @@
-﻿Console.WriteLine("cane");
+﻿using csharp_abstract_animals;
+
+Console.WriteLine("cane");
 Animale cane = new Cane();
 cane.Dormi(); 
 cane.Verso(); 
@@ -28,12 +30,20 @@ aquila.Dormi();
 delfino.Verso();
 delfino.Mangia();
 
+Console.WriteLine();
+Console.WriteLine("pulcinelladimare");
+
+Animale pulcinelladimare = new Pulcinelladimare();
+pulcinelladimare.Dormi();
+pulcinelladimare.Verso();
+pulcinelladimare.Mangia();
+
 Console.WriteLine("---------------------------------------");
 
 Console.WriteLine("Aquila:");
 FaiVolare((IVolante)aquila);
 
-Console.WriteLine("Delfino::");
+Console.WriteLine("Delfino:");
 FaiNuotare((INuotante)delfino);
 
 static void FaiVolare(IVolante aquila)
@@ -44,4 +54,19 @@ static void FaiVolare(IVolante aquila)
 static void FaiNuotare(INuotante delfino)
 {
     delfino.Nuota();
+}
+
+
+Console.WriteLine("Pulcinella di mare:");
+FaiVolarePulcinella((IVolante)pulcinelladimare);
+FaiNuotarePulcinella((INuotante)pulcinelladimare);
+
+static void FaiVolarePulcinella(IVolante pulcinelladimare)
+{
+    pulcinelladimare.Vola();
+}
+
+static void FaiNuotarePulcinella(INuotante pulcinelladimare)
+{
+    pulcinelladimare.Nuota();
 }
