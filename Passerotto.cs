@@ -18,6 +18,11 @@ public class Passerotto : Animale, IVolante
         Console.WriteLine("Briciole");
     }
 
+    public void Vola()
+    {
+        Console.WriteLine("Sto nuotando!!!");
+    }
+
 }
 
 

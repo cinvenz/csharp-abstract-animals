@@ -18,6 +18,10 @@ public class Aquila : Animale, IVolante
         Console.WriteLine("Carne");
     }
 
+    public void Vola()
+    {
+        Console.WriteLine("Sto nuotando!!!");
+    }
 }
 
 

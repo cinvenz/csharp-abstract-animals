@@ -7,10 +7,7 @@ using System.Threading.Tasks;
 
 public interface IVolante
 {
-    void Vola()
-    {
-        Console.WriteLine("Sto volando!!!");
-    }
+    void Vola();
   
 }
 
